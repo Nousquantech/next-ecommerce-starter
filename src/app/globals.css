@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brown: #a54123;
+  --bgSoft: #182237;
+  --text: white;
+  --textSoft: #b7bac1;
+  --pink: #f35c7a;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}

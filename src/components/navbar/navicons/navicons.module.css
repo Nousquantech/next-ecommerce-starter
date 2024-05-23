@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem /* 16px */;
+  position: relative;
+}
+.NIIcon {
+  cursor: pointer;
+}
+.NILogout {
+  margin-top: 0.5rem /* 8px */;
+  cursor: pointer;
+}
+.NICartWrap {
+  position: relative;
+  cursor: pointer;
+}
+.NICartBage {
+  position: absolute;
+  top: -1rem /* -16px */;
+  right: -1rem /* -16px */;
+  width: 1.5rem /* 24px */;
+  height: 1.5rem /* 24px */;
+  background-color: var(--pink);
+  border-radius: 9999px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+.NIProfileMenu {
+  position: absolute;
+  padding: 1rem /* 16px */;
+  border-radius: 0.375rem /* 6px */;
+  top: 3rem /* 48px */;
+  left: 0px;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  z-index: 20;
+  --tw-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  --tw-shadow-colored: 0 3px 10px rgb(0, 0, 0, 0.2);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+@media (min-width: 1280px) {
+  .container {
+    gap: 1.5rem /* 24px */;
+  }
+}

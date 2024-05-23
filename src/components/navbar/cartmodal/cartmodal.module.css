@@ -1,0 +1,103 @@
+.container {
+  position: absolute;
+  padding: 1rem /* 16px */;
+  border-radius: 0.375rem /* 6px */;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: white;
+  top: 3rem /* 48px */;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem /* 24px */;
+  width: max-content;
+  z-index: 20;
+}
+.CMCImage {
+  object-fit: cover;
+  border-radius: 0.375rem /* 6px */;
+}
+.CMImageContainer {
+  display: flex;
+  gap: 1rem /* 16px */;
+}
+.CMTextBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.CMTextTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem; /*32px*/
+}
+.CMTextProductName {
+  font-weight: 600;
+}
+.CMTextProductPrice {
+  padding: 0.25rem /* 4px */;
+  background-color: rgb(249 250 251);
+  border-radius: 0.125rem /* 2px */;
+}
+.CMTextProductDesc {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  color: rgb(107 114 128);
+}
+.CMTextBottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+.CMTextQty {
+  color: rgb(107 114 128);
+}
+.CMTextRemove {
+  color: rgb(59 130 246);
+}
+
+.CMCartWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem /* 32px */;
+}
+.CMBSubtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.CMBLorem {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  color: rgb(107 114 128);
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 1rem /* 16px */;
+}
+.CMBLoremButtonWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+.CMBButtonOne {
+  border-radius: 0.375rem /* 6px */;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  border-color: rgb(227, 229, 235);
+  border-width: 2px;
+  /* box-shadow: 0 0 #0000, 0 0 0 1 rgb(209 213 219), 0 0 0 #0000; */
+}
+.CMBButtonTwo {
+  border-radius: 0.375rem /* 6px */;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  background-color: black;
+  color: white;
+}
