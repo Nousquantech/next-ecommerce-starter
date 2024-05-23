@@ -7,8 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lama Dev E-Commerce Application",
-  description: "A complete e-commerce application with Next.js and Wix",
+  title: "Rum&Rose online store | NYC USA",
+  description:
+    "Fashion collections of Rum&Rose, ready-to-wear, bespoke, made-to-measure, fashion accessories, belts and fashion jewelry",
 };
 
 export default function RootLayout({
