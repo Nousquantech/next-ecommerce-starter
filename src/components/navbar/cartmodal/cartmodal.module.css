@@ -35,6 +35,9 @@
 .CMTextProductName {
   font-weight: 600;
 }
+.CMTextProductName222 {
+  font-weight: 600;
+}
 .CMTextProductPrice {
   padding: 0.25rem /* 4px */;
   background-color: rgb(249 250 251);
