@@ -1,7 +1,5 @@
-import { useContext } from "react";
 import { User, Product } from "./models";
 import { connectToDB } from "./utils";
-import { WixClientContext } from "../../context/wixContext";
 
 //fetch all users
 export const fetchUsers = async (q, page) => {
@@ -60,10 +58,4 @@ export const fetchProduct = async (id) => {
     console.log(error);
     throw new Error("Failed to fetch to product!");
   }
-};
-
-//Get Products from library
-export const getProducts = async () => {
-  const wixContext = useContext(WixClientContext);
-  const res = await wixClient.products.queryProducts().find();
 };
